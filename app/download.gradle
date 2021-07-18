@@ -1,0 +1,9 @@
+apply plugin: 'de.undercouch.download'
+
+task downloadModelFile(type: Download) {
+    src 'https://tfhub.dev/google/on_device_vision/classifier/popular_us_products_V1/1'
+    dest project.ext.ASSET_DIR + '/model.tflite'
+    overwrite false
+}
+
+preBuild.dependsOn downloadModelFile

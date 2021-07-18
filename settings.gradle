@@ -1,0 +1,3 @@
+rootProject.name = "Product Classifier TFLite"
+include ':app'
+include ':lib_task_api'
