@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Product Classifier TFLite</string>
+
+    <string name="tfe_ic_app_name" translation_description="Image Classification demo app [CHAR_LIMIT=40]">TFL Classify</string>
+    <string name="tfe_ic_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="tfe_ic_gpu_quant_error" translation_description="Error regarding GPU support for Quant models[CHAR_LIMIT=60]">GPU does not yet support quantized models.</string>
+    <string name="tfe_ic_model" translatable="false">Model:</string>
+
+    <string name="tfe_ic_device" translatable="false">Device:</string>
+    <string name="threads">Threads</string>
+    <string name="inference_time">Inference Time</string>
+    <string name="rotation">Rotation</string>
+    <string name="view">View</string>
+    <string name="crop">Crop</string>
+    <string name="frame">Frame</string>
+    <string name="tf_lite_logo">TF-Lite Logo</string>
+    <string name="_640_480">640*480</string>
+    <string name="_640_480">640*480</string>
+    <string name="_640_480">640*480</string>
+    <string name="_640_480">640*480</string>
+    <string name="_640_480">640*480</string>
+    <string name="_1">1</string>
+    <string-array name="tfe_ic_devices" translatable="false">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
 </resources>
